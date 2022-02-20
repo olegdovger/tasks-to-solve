@@ -1,10 +1,10 @@
 /*
 * Реализовать метод для определения верна ли скобочная последовательность
 * */
+import assert from "assert";
+
 function parentheses(str = '') {
 }
-
-const assert = require('assert');
 
 assert.strictEqual(parentheses('{{}{}}'), true);
 assert.strictEqual(parentheses('{[{}]}'), true);

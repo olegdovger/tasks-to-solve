@@ -2,6 +2,8 @@
 * Реализовать функцию фибоначчи рекурсивно и итеративно
 */
 
+import assert from "assert";
+
 function fibRecursive (num) {
 
 }
@@ -9,8 +11,6 @@ function fibRecursive (num) {
 function fibIterative (num) {
 
 }
-
-const assert = require('assert');
 
 assert.strictEqual(fibRecursive(1), 1);
 assert.strictEqual(fibRecursive(2), 1);

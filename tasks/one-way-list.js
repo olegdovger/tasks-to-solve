@@ -9,6 +9,8 @@
 * стало - 1 -> 2 -> 3 -> 4 -> 5
 */
 
+import assert from "assert";
+
 function rotateRight(list, number = 0) {
 
 }
@@ -31,8 +33,6 @@ const list = {
 };
 
 const result = rotateRight(list, 2);
-
-const assert = require('assert');
 
 assert.strictEqual(result.value, 1);
 assert.strictEqual(result.next.value, 2);

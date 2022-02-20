@@ -1,0 +1,9 @@
+{
+  "name": "tasks-to-solve",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/olegdovger/tasks-to-solve.git",
+  "author": "Oleg Dovger <oleg.a.dovger@gmail.com>",
+  "license": "MIT"
+}

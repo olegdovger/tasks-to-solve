@@ -14,14 +14,20 @@
 в порядке следования по маршруту.
 */
 
+import assert from "assert";
+
 function getRoute(tickets = []) {
 
 }
 
 const tickets = [
+  { from: 'London', to: 'Moscow' },
   { from: 'NY', to: 'London' },
   { from: 'Moscow', to: 'SPb' },
-  { from: 'London', to: 'Moscow' },
 ]
 
-getRoute(tickets)
+assert.deepEqual(getRoute(tickets), [
+  { from: 'NY', to: 'London' },
+  { from: 'London', to: 'Moscow' },
+  { from: 'Moscow', to: 'SPb' }
+])
